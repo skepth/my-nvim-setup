@@ -1,13 +1,13 @@
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
-  ensure_installed = { 
+  ensure_installed = {
 	  "go",
 	  "gomod",
 	  "gosum",
 	  "gowork",
 	  "c",
 	  "cpp",
-	  "lua", 
+	  "lua",
 	  "rust",
 	  "json",
 	  "markdown_inline",

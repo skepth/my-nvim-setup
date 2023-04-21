@@ -28,6 +28,9 @@ return require('packer').startup(function(use)
 		}--,
 	}
 
+	 -- Folding support	
+	use({'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'})	
+
 	-- language server
 	use {
     		"VonHeikemen/lsp-zero.nvim",
@@ -47,8 +50,7 @@ return require('packer').startup(function(use)
         		{"hrsh7th/nvim-cmp"}, -- Required
         		{"hrsh7th/cmp-nvim-lsp"}, -- Required
         		{"L3MON4D3/LuaSnip"}, -- Required
-			{'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'} -- Folding support
-    		}
+		}
 	}
 
 end)
