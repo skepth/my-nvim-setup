@@ -30,6 +30,7 @@ newline above from where the curser was currently at.
 
 #### TODO;
 - [ ] Make folds more visible (maybe highlighted rows).
+- [x] Make folds aesthetic.
 - [ ] Disable folding for small functions.
 - [ ] Fold only at the root of the function (no subfolds).
 - [ ] Keymaps for opening/closing all folds.
@@ -45,4 +46,4 @@ newline above from where the curser was currently at.
 ### Color Scheme (rose-pine)
 
 #### TODO;
-- [ ] Re-configure settings to make colors prettier.
+- [x] Re-configure settings to make colors prettier.

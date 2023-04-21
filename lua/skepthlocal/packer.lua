@@ -30,6 +30,7 @@ return require('packer').startup(function(use)
 
 	 -- Folding support	
 	 use({'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'})
+	 use("luukvbaal/statuscol.nvim")
 
 	-- language server
 	use {
