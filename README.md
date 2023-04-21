@@ -28,13 +28,18 @@ newline above from where the curser was currently at.
 
 ### Folding based on LSP (nvim-ufo)
 
+#### Keymaps
+* `za` toggle fold on whole function if foldable.
+* `zM` folds all foldable functions.
+* `zR` opens all folded functions.
+
 #### TODO;
-- [ ] Make folds more visible (maybe highlighted rows).
+- [x] Make folds more visible (maybe highlighted rows).
 - [x] Make folds aesthetic.
-- [ ] Disable folding for small functions.
-- [ ] Fold only at the root of the function (no subfolds).
-- [ ] Keymaps for opening/closing all folds.
-- [ ] Keymaps for opening/closing one of the functions.
+- [x] Disable folding for small functions. (only 12 lines & above get folded)
+- [x] Fold only at the root of the function (no subfolds).
+- [x] Keymaps for opening/closing all folds.
+- [x] Keymaps for opening/closing one of the functions.
 
 ### Language Server (lspconfig)
 

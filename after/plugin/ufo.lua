@@ -4,11 +4,15 @@ vim.o.foldlevel = 99 -- Using ufo provider need a large value, feel free to decr
 vim.o.foldlevelstart = 99
 vim.o.foldenable = true
 vim.o.fillchars = [[eob: ,fold: ,foldopen:,foldsep: ,foldclose:]]
-vim.o.statuscolumn = "%C"
+vim.o.foldnestmax = 1 -- Fold only at the top most level.
+vim.o.foldminlines = 12 -- Do not fold functions with only 12 lines
 
 -- Using ufo provider need remap `zR` and `zM`.
 vim.keymap.set('n', 'zR', require('ufo').openAllFolds)
 vim.keymap.set('n', 'zM', require('ufo').closeAllFolds)
+
+-- toggle all folds open and close if fold present
+vim.keymap.set("n", "za", "zA")
 
 -- Hide gutter numbers for folding.
 -- https://github.com/kevinhwang91/nvim-ufo/issues/4
