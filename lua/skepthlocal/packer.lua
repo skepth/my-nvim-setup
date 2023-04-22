@@ -54,4 +54,6 @@ return require('packer').startup(function(use)
 		}
 	}
 
+	use "akinsho/bufferline.nvim" -- Bufferline.
+
 end)

@@ -60,3 +60,14 @@ newline above from where the curser was currently at.
 #### TODO;
 - [x] Re-configure settings to make colors prettier.
 
+### Bufferline
+
+Note: A buffer is similar to tabs in a browser.
+
+#### Keymaps
+* `:bd` like *:q* but only closes current buffer.
+* `Ctrl-l` move to next buffer.
+* `Ctrl-h` move to previous buffer.
+
+#### TODO;
+- [ ] Beautify  the bufferline.
