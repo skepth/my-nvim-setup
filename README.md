@@ -37,6 +37,8 @@ newline above from where the curser was currently at.
 
 #### Keymaps
 * `za` toggle fold on whole function if foldable.
+* `zo` open one level (usually works for json sublevels).
+* `zc` close one level.
 * `zM` folds all foldable functions.
 * `zR` opens all folded functions.
 
