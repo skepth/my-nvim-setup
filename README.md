@@ -18,13 +18,20 @@ newline above from where the curser was currently at.
 
 ### File Tree (nvim-tree)
 
+#### Keymaps
+* `<space>e` toggle file explorer.
+* `zM` toggle directory open/close.
+* `r` rename the cursor'ed file.
+* `d` delete the file.
+* `a` create a new file.
+
 #### TODO;
-- [ ] Keymaps to toggle, focus and open/fold directories.
-- [ ] Disable cursor horizontal movement when in file tree.
-- [ ] Enable git stages icons.
-- [ ] Enable auto-resizing three window.
-- [ ] Complete checking other features available.
-- [ ] ~ Rename nvim tree name.
+- [x] Keymaps to toggle, focus and open/fold directories.
+- [X] Disable cursor horizontal movement when in file tree.
+- [x] Enable git stages icons.
+- [ ] Enable auto-resizing the window.
+- [ ] ~~Complete checking other features available.~~
+- [ ] ~~Rename nvim tree name.~~
 
 ### Folding based on LSP (nvim-ufo)
 
@@ -52,3 +59,4 @@ newline above from where the curser was currently at.
 
 #### TODO;
 - [x] Re-configure settings to make colors prettier.
+

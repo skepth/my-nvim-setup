@@ -1,5 +1,8 @@
 require("skepthlocal")
 
+-- set <leader> to space.
+vim.g.mapleader = " "
+
 -- set relative numbers
 vim.opt.relativenumber = true
 
