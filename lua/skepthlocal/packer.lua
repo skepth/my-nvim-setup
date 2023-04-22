@@ -54,6 +54,14 @@ return require('packer').startup(function(use)
 		}
 	}
 
+	-- More rust tools
+	-- use 'jose-elias-alvarez/null-ls.nvim'
+	use 'rust-lang/rust.vim'
+	--use 'simrat39/rust-tools.nvim'
+	--* `Ctrl-l` move to next buffer. rust Debugging
+	-- use 'nvim-lua/plenary.nvim'
+	-- use 'mfussenegger/nvim-dap'
+
 	use "akinsho/bufferline.nvim" -- Bufferline.
 
 end)

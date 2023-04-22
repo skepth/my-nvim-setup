@@ -12,3 +12,6 @@ vim.g.loaded_netrwPlugin = 1
 
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
+
+-- run rustfmt on autosave.
+vim.g.rustfmt_autosave = 1
