@@ -1,5 +1,34 @@
 # my-nvim-setup
 
+## Setup Instructions
+
+> :warning: Be sure to include nvim in `$PATH` environment variable on Windows.
+> :green_heart: [Windows Terminal](https://github.com/microsoft/terminal) seems to play nice with nvim.
+
+1. Install [Neovim](https://neovim.io/)
+2. Open terminal and run `nvim` command.
+3. Once nvim opens, use the following command to figure out the config path
+nvim expects.
+
+```
+:echo stdpath('config')
+```
+
+4. Go to the config directory(feel free to create one if it does not exist),
+and clone this github repo, as follows:
+
+```
+git clone https://github.com/skepth/my-nvim-setup.git .
+```
+
+5. Install [packer](https://github.com/wbthomason/packer.nvim#requirements) on your machine.
+
+6. Open nvim to `lua/skepthlocal/packer.lua` and run `:so` to source the file.
+
+7. Now you should have access to `:PackerInstall` to install all plugins.
+
+8. Enjoy!
+
 ## Key VIM Shortcuts
 
 Note: Every shortcut described in this section is case sensitive.
