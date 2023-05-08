@@ -1,8 +1,8 @@
 -- Bufferline
 --
 
-vim.keymap.set("n", "<C-l>", ":BufferLineCycleNext<cr>")
-vim.keymap.set("n", "<C-h>", ":BufferLineCyclePrev<cr>")
+vim.keymap.set("n", "<leader>l", ":BufferLineCycleNext<cr>")
+vim.keymap.set("n", "<leader>h", ":BufferLineCyclePrev<cr>")
 
 require("bufferline").setup({
 

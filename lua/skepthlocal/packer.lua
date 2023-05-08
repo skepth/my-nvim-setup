@@ -64,4 +64,9 @@ return require('packer').startup(function(use)
 
 	use "akinsho/bufferline.nvim" -- Bufferline.
 
+	use {		
+		"christoomey/vim-tmux-navigator",
+		lazy = false,
+	}
+
 end)

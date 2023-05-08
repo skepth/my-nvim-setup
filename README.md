@@ -45,6 +45,14 @@ newline above from where the curser was currently at.
 
 ## Plugins
 
+### Tmux Window Navigation
+
+#### Keymaps
+* `Ctrl-h` move to left window pane.
+* `Ctrl-l` move to right window pane.
+* `Ctrl-j` move to down window pane.
+* `Ctrl-k` move to up window pane.
+
 ### File Tree (nvim-tree)
 
 #### Keymaps
@@ -97,8 +105,8 @@ Note: A buffer is similar to tabs in a browser.
 
 #### Keymaps
 * `:bd` like *:q* but only closes current buffer.
-* `Ctrl-l` move to next buffer.
-* `Ctrl-h` move to previous buffer.
+* `Space-l` move to next buffer.
+* `Space-h` move to previous buffer.
 
 #### TODO;
 - [ ] Beautify  the bufferline.
