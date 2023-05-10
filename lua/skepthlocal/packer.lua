@@ -68,5 +68,8 @@ return require('packer').startup(function(use)
 		"christoomey/vim-tmux-navigator",
 		lazy = false,
 	}
+	
+	use "akinsho/toggleterm.nvim" -- toggle-terminal
+
 
 end)

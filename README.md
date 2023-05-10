@@ -110,3 +110,8 @@ Note: A buffer is similar to tabs in a browser.
 
 #### TODO;
 - [ ] Beautify  the bufferline.
+
+### Toggleterm
+
+#### Keymaps
+* `Ctrl+\` Toggle terminal.
