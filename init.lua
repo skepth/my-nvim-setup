@@ -15,3 +15,7 @@ vim.opt.termguicolors = true
 
 -- run rustfmt on autosave.
 vim.g.rustfmt_autosave = 1
+
+-- show diagnostic info from lsp in pop up windows
+vim.o.updatetime = 250
+vim.cmd [[autocmd! CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
