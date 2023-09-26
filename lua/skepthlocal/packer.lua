@@ -1,6 +1,5 @@
 -- packer main
 --
-
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
@@ -64,12 +63,14 @@ return require('packer').startup(function(use)
 
 	use "akinsho/bufferline.nvim" -- Bufferline.
 
-	use {		
+	use {
 		"christoomey/vim-tmux-navigator",
 		lazy = false,
 	}
-	
+
 	use "akinsho/toggleterm.nvim" -- toggle-terminal
 
+	-- Auto close brackets
+	use "windwp/nvim-autopairs"
 
 end)
