@@ -62,6 +62,7 @@ return require('packer').startup(function(use)
 	-- use 'mfussenegger/nvim-dap'
 
 	use "akinsho/bufferline.nvim" -- Bufferline.
+	use 'famiu/bufdelete.nvim'
 
 	use {
 		"christoomey/vim-tmux-navigator",

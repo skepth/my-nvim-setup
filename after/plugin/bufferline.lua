@@ -7,6 +7,7 @@ vim.keymap.set("n", "<leader>h", ":BufferLineCyclePrev<cr>")
 require("bufferline").setup({
 
 	options = {
+		close_command = require('bufdelete').bufdelete,
 		offsets = {
 			{
 				filetype = "NvimTree",
